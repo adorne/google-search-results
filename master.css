@@ -1,0 +1,17 @@
+.header {
+  height: 59px;
+  width: 100%;
+  background-color: #F1F1F1;
+  display: block;
+  border: 1px solid #E5E5E5;
+  margin: -15px auto auto -15px;
+}
+
+.header div {
+  margin: 15px auto auto 15px;
+
+}
+
+.logo {
+  
+}
