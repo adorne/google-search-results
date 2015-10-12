@@ -8,11 +8,17 @@
   <body>
     <!-- Тестовый комментарий. -->
     <div class="header"> <!-- NOTE: верхняя часть страницы с формой поиска и меню справа -->
-      <div class="logo"> <!-- NOTE: место для логотипа Google -->
-        <img src="nav_logo231.png" alt="Google" />
-      </div>
-      <div class="form"> <!-- NOTE: место для формы поиска -->
+      <div class="left-controls">
+        <div class="logo"> <!-- NOTE: место для логотипа Google -->
+          <a href="file:///D:/codenamecrud/google-homepage/index.html"><img src="googlelogo_color_272x92dp.png" alt="Google" width="90"/></a>
+        </div>
 
+        <div class="form"> <!-- NOTE: место для формы поиска -->
+          <form class="search-action" action="#" method="post">
+            <input id="search-field" type="text" name="search-field" value="">
+            <input id="search-button" type="submit" name="search-button" value="Search">
+          </form>
+        </div>
       </div>
       <div class="user-menu"> <!-- NOTE: меню пользователя (справа) -->
 
@@ -26,6 +32,9 @@
 
       </div>
       <div class="blank-right"> <!-- NOTE: пустое место справа, переменной ширины -->
+
+      </div>
+      <div class="footer"> <!-- NOTE: подвал -->
 
       </div>
     </div>

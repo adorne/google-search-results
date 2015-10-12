@@ -1,17 +1,47 @@
-.header {
-  height: 59px;
-  width: 100%;
-  background-color: #F1F1F1;
-  display: block;
-  border: 1px solid #E5E5E5;
-  margin: -15px auto auto -15px;
+body {
+  margin: 0px;
 }
 
-.header div {
-  margin: 15px auto auto 15px;
+.header {
+  height: 59px;
+  background-color: #F1F1F1;
+  border: 1px solid #E5E5E5;
+}
 
+.left-controls {
+
+}
+
+.left-controls div {
+  float: left;
+  display: inline-block;
+  margin: 12px 0px 0px 15px;
 }
 
 .logo {
-  
+  width: 100px;
+}
+
+.form {
+
+}
+
+#search-field {
+   min-width: 500px;
+   max-width: 700px;
+   height: 32px;
+   border: 1px solid #E5E5E5;
+   padding: 0px 5px 0px 5px;
+   font-size: 13pt;
+}
+
+#search-button {
+  background-color: #118fff;
+  border-radius: 0px 5px 5px 0px;
+  border: none;
+  font-size: 13pt;
+  color: white;
+  height: 32px;
+  width: 70px;
+  padding: 0px 5px 0px 5px;
 }
