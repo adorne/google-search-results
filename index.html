@@ -6,11 +6,13 @@
     <link rel="stylesheet" href="master.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
-    <!-- Тестовый комментарий. -->
+    <!-- Верхушка. -->
     <div class="header"> <!-- NOTE: верхняя часть страницы с формой поиска и меню справа -->
       <div class="left-controls">
         <div class="logo"> <!-- NOTE: место для логотипа Google -->
-          <a href="file:///D:/codenamecrud/google-homepage/index.html"><img src="googlelogo_color_272x92dp.png" alt="Google" width="90"/></a>
+          <a href="file:///D:/codenamecrud/google-homepage/index.html">
+            <img src="googlelogo_color_272x92dp.png" alt="Google" width="90"/>
+          </a>
         </div>
 
         <div class="form"> <!-- NOTE: место для формы поиска -->
@@ -21,23 +23,83 @@
         </div>
       </div>
       <div class="user-menu"> <!-- NOTE: меню пользователя (справа) -->
+        <div>
+          <p id="username">
+            Username
+          </p>
+        </div>
 
+        <div>
+          <p id="menu">
+            Menu
+          </p>
+        </div>
+
+        <div>
+          <img id="userpic" src="userpic.jpg" alt="Snusmumrik" width="32" />
+        </div>
       </div>
     </div>
+
+    <!-- Между шапкой и телом -->
+    <div class="header-main">
+      <a href="#" style="margin-left: 128px;">Web</a>
+      <a href="#">Images</a>
+      <a href="#">Maps</a>
+    </div>
+
+    <!-- Основная часть страницы -->
     <div class="main"> <!-- NOTE: основное окно результатов поиска с минимальной шириной -->
       <div class="blank-left"> <!-- NOTE: пустое место слева, по ширине как логотип -->
 
       </div>
       <div class="search-results"> <!-- NOTE: результаты поиска, постоянной ширины -->
-
-      </div>
-      <div class="blank-right"> <!-- NOTE: пустое место справа, переменной ширины -->
-
-      </div>
-      <div class="footer"> <!-- NOTE: подвал -->
-
+        <p>
+          <a href="#">Первый результат</a>
+          <p>
+            12345
+          </p>
+        </p>
+        <p>
+          <a href="#">Second</a>
+          <p>
+            67890
+          </p>
+        </p>
+        <p>
+          Third
+        </p>
+        <p>
+          Fourth
+        </p>
+        <p>
+          Fifth
+        </p>
+        <p>
+          Sixth
+        </p>
+        <p>
+          Seventh
+        </p>
+        <p>
+          Eighth
+        </p>
+        <p>
+          Ninth
+        </p>
+        <p>
+          Tenth
+        </p>
       </div>
     </div>
 
+    <!-- NOTE: подвал -->
+    <footer>
+      <a href="#">link1</a>
+      <a href="#">link2</a>
+      <a href="#">link3</a>
+    </footer>
+
   </body>
+
 </html>
